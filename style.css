@@ -1,0 +1,46 @@
+html, body{
+    padding: 0; margin: 0;
+    font-style: 'Popins', sans-serif; box-sizing: border-box;
+}
+
+body{
+    display: flex; align-items: center; justify-content: center;
+    background: #4070f4; height: 100vh;
+}
+
+.container_box{
+    background: #fff; border-radius: 7px; width: 500px; min-height: 300px;
+}
+
+.Bars{
+    display: flex; flex-direction: column; padding-left: 1rem; padding-right: 1rem;
+}
+
+.bar1{ background: linear-gradient(to right, #4070f4 90%, rgb(216, 216, 216) 90%); }
+
+.bar2{ background: linear-gradient(to right, #4070f4 70%, rgb(216, 216, 216) 70%); }
+
+.bar3{ background: linear-gradient(to right, #4070f4 50%, rgb(216, 216, 216) 50%);  }
+
+.bar4{
+    background: linear-gradient(to right, #4070f4 30%, rgb(216, 216, 216) 30%);  margin-bottom: 3rem; 
+}
+
+.bar1, .bar2, .bar3, .bar4{
+    position: relative;  width: 100%; border-radius: 6px; 
+    height: 14px; 
+}
+
+.bar1 span, .bar2 span, .bar3 span, .bar4 span{
+    position: absolute; top: -30px; background: #4070f4;
+    color: white; border-radius: 4px; font-size: 12px;
+    padding: 3px 8px;
+}
+
+.bar1 span{ right: 6%;}
+
+.bar2 span{ right: 26%;}
+
+.bar3 span{ right: 46%;}
+
+.bar4 span{ right: 66%;}
